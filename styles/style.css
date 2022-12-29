@@ -80,6 +80,11 @@ footer {
   font-size: 24px;
   color: #e45a84;
 }
+@media screen and (max-width: 768px) {
+  .pad {
+    padding: 0 2%;
+  }
+}
 .hero-section {
   background: url("../resources/hero.jpg");
 
@@ -95,11 +100,9 @@ footer {
 }
 .image-re {
   border-radius: 25px;
-  width: 350px;
+  width: 100%;
 }
-.logo {
-  margin-top: 50%;
-}
+
 .logo-width {
   width: 80%;
 }
@@ -116,6 +119,7 @@ footer {
 .btn-linkedin {
   border: 2px solid #583c87;
   color: #583c87;
+  margin: 2% 0;
   margin-left: 2%;
 }
 .btn-linkedin:hover {
@@ -137,6 +141,7 @@ footer {
   top: 5px;
 }
 .view-re {
+  margin: 2% 0;
   background-color: #3e1e68;
   color: white;
 }
@@ -229,8 +234,13 @@ footer {
 #intro,
 #r-intro {
   font-family: "Love Ya Like A Sister", cursive;
-  font-size: 64px;
+  font-size: 4.5rem;
   color: #3e1e68;
+}
+@media screen and (max-width: 768px) {
+  #r-intro {
+    font-size: 3.5rem;
+  }
 }
 #contact {
   height: 100vh;
